@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.map {
+  /* width: 100vw;
+  height: 100vh;*/
+  position: relative;
+}
+
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.volcano-icon {
+  color: #2f4f4f;
+}
+
+.fire-icon {
+  color: #C0392B;
+}
+
+
+
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.loader img {
+  width: 90px;
+}
+
+.loader h1 {
+  font-size: 25px;
+  margin-top: -10;
+  color: #566060;
+}
+
+.loader p {
+  position: absolute;
+  bottom: 15px;
+  color: rgba(0,0,0,0.5);
+}
+
+.location-info {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  width: 300px;
+  min-height: 100px;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  color: aliceblue;
+  border-radius: 15px;
+  box-shadow: 0 6px 6px rgba(0,0,0,0.2);;
+}
+
+.location-info ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.location-info li {
+  padding-top: 10px;
+}
+
+.location-info h2 {
+  text-align: center;
+}
+
