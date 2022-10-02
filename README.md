@@ -16,3 +16,7 @@ React project including *components*, *useEffect* and open resources *OpenWeathe
 ```
 npm install
 ```
+##### Development mode
+```
+npm start
+```
