@@ -23,7 +23,13 @@ body {
   color: #C0392B;
 }
 
+.storm-icon {
+  color: #000;
+}
 
+.ice-icon {
+  color: #00ced1;
+}
 
 
 .loader {
